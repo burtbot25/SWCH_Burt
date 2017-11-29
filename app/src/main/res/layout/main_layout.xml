@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upcoming Events"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/nextTask3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nextTask2"
+        android:layout_alignStart="@+id/nextTask2"
+        android:layout_below="@+id/nextTask2"
+        android:layout_marginTop="21dp"
+        android:text=">  nextTask3" />
+
+    <TextView
+        android:id="@+id/nextTask2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nextTask1"
+        android:layout_alignStart="@+id/nextTask1"
+        android:layout_below="@+id/nextTask1"
+        android:layout_marginTop="18dp"
+        android:text=">  nextTask2" />
+
+    <TextView
+        android:id="@+id/nextTask1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text=">  nextTask1"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="31dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
