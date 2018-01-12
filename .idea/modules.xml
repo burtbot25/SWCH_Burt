@@ -3,8 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SWCH.iml" filepath="$PROJECT_DIR$/SWCH.iml" />
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/SWCH-Planner.iml" filepath="$PROJECT_DIR$/SWCH-Planner.iml" />
+=======
+      <module fileurl="file://C:\Users\TKYC\AndroidStudioProjects\.git\SWCH\SWCH-Planner.iml" filepath="C:\Users\TKYC\AndroidStudioProjects\.git\SWCH\SWCH-Planner.iml" />
+>>>>>>> 25c17a9bddb01fb00df305afb4c921a08eab308b
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\TKYC\AndroidStudioProjects\.git\SWCH\app\app.iml" filepath="C:\Users\TKYC\AndroidStudioProjects\.git\SWCH\app\app.iml" />
     </modules>
   </component>
 </project>
