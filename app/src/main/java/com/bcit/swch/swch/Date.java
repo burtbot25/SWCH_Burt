@@ -1,4 +1,4 @@
-package swch.bcit.ca.swchdatabases;
+package com.bcit.swch.swch;
 
 /**
  * Date class represents the characteristics of a date.

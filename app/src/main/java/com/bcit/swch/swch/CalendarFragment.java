@@ -1,4 +1,4 @@
-package com.example.burt.swch_planner;
+package com.bcit.swch.swch;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -7,16 +7,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.burt.swch_planner.R;
+
 /**
  * Created by Burt on 2017-11-26.
  */
 
-public class MainFragment extends Fragment {
+public class CalendarFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
         View myView;
-        myView = inflater.inflate(R.layout.main_layout, container, false);
+        myView = inflater.inflate(R.layout.calendar_layout, container, false);
         return myView;
 
     }

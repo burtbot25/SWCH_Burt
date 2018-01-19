@@ -1,4 +1,4 @@
-package swch.bcit.ca.swchdatabases;
+package com.bcit.swch.swch;
 
 /**
  * IllegalDateFormatException class.
